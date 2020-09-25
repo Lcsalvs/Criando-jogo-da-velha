@@ -10,24 +10,27 @@
     <h1>JOGO DA VELHA</h1>
 
     <div>
-        <div id="1" class="square"></div>
-        <div id="2" class="square"></div>
-        <div id="3" class="square"></div>
+        <div id="1" class="square" onclick="chooseSquare(this.id)">-</div>
+        <div id="2" class="square" onclick="chooseSquare(this.id)">-</div>
+        <div id="3" class="square" onclick="chooseSquare(this.id)">-</div>
     </div>
     <div>
-        <div id="4" class="square"></div>
-        <div id="5" class="square"></div>
-        <div id="6" class="square"></div>
+        <div id="4" class="square" onclick="chooseSquare(this.id)">-</div>
+        <div id="5" class="square" onclick="chooseSquare(this.id)">-</div>
+        <div id="6" class="square" onclick="chooseSquare(this.id)">-</div>
     </div>
     <div>
-        <div id="7" class="square"></div>
-        <div id="8" class="square"></div>
-        <div id="9" class="square"></div>
+        <div id="7" class="square" onclick="chooseSquare(this.id)">-</div>
+        <div id="8" class="square" onclick="chooseSquare(this.id)">-</div>
+        <div id="9" class="square" onclick="chooseSquare(this.id)">-</div>
     </div>
 
     <div class="jogador">
-        <label id="jogador-selecionado">
+        <label>
             JOGADOR:
+        </label>
+        <label id="jogador-selecionado">
+            
         </label>
     </div>
 
@@ -45,5 +48,6 @@
             RESTART
         </button>
     </div>
+    <script src="velha.js"></script>
 </body>
 </html>
